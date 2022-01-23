@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    paddign:0;
+    box-sizing:border-box;
+}
+.header{
+    width:100%;
+    min-height:100vh;
+    background-image:url(images/background.png);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.sidebar{
+    position:absolute;
+    right:0;
+    top:0;
+    width:100px;
+    height:100vh;
+    background: rgba(0, 2, 63, 0.9);
+    text-align: center;
+
+}
+.sidebar img{
+    width: 25px;
+    display: block;
+    margin:50px auto 80px;
+    cursor:pointer;
+}
+.social-media{
+    width:100%;
+    height: 50%;
+    position:absolute;
+    bottom:0;
+    background: rgba(243, 2, 2, 0.8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    padding-bottom:30px;
+}
+.social-media img{
+    width: 30px;
+    margin: 20px;
+}
+
+.container{
+    background: rgba(0, 2, 63, 0.8);
+    width: 52.1%;
+    height: 100vh;
+    position:relative;
+
+}
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:120px;
+    cursor:pointer;
+}
+.shop-icon{
+    width:25px;
+    margin:10px 60px;
+    cursor:pointer;
+}
+.play-icon{
+    position:absolute;
+    top:50%;
+    right: 0;
+    transform:translate(50%,-50%);
+    width: 140px;
+    cursor:pointer;
+}
+.info{
+    padding: 20px 20%;
+    color:#fff;
+
+}
+.info h3{
+    font-size:42px;
+    line-height:60px;
+    fontweight:normal;
+    
+}
+.info h1{
+    font-size:95px;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.row{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:40px 0;
+
+}
+.row .line{
+    background:#999;
+    height: 2px;
+    width:80%;
+    border-radius:2px;
+}
+
+.row .line span{
+    background: #ed383d;
+    width:50%;
+    height:100%;
+    display: block;
+}
+.row div h4:hover{
+    cursor:pointer;
+    color: rgba(243, 2, 2, 0.8);
+    box-shadow: 2px 4px 8px rgba(243, 2, 2, 0.8),
+    4px 8px 16px rgba(243, 2, 2, 0.8) ;
+    align-items: center;text-align: center;
+   transition:all 3s;}
